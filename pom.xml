@@ -9,7 +9,7 @@
   
  <properties>
    
-        <suiteFile>testng_browserstack.xml</suiteFile>
+        <suiteFile>C:\Users\shwetabh\eclipse-workspace\SeleniumWithSauceLabsBrowserStackLambdaTest\src\test\resources\testrunners\testng_browserstack.xml</suiteFile>
     </properties>
 
  
