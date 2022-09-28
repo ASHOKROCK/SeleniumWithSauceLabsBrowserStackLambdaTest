@@ -9,6 +9,7 @@
     <classes>
       <class name="com.mytests.SauceTest">
         <methods>
+          <include name="checkInventoryItemTest"/>
           <include name="setUp"/>
           <include name="checkAddToCartButtonTest"/>
           <include name="tearDown"/>
@@ -16,19 +17,4 @@
       </class> <!-- com.mytests.SauceTest -->
     </classes>
   </test> <!-- BrowserStack Test - Chrome(failed) -->
-  <test parallel="tests" name="BrowserStack Test - FF(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="os_version" value="10"/>
-    <parameter name="browser" value="Firefox"/>
-    <parameter name="browser_version" value="80.0"/>
-    <classes>
-      <class name="com.mytests.SauceTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="checkAddToCartButtonTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.mytests.SauceTest -->
-    </classes>
-  </test> <!-- BrowserStack Test - FF(failed) -->
 </suite> <!-- Failed suite [BrowserStack Test automtion regression suite] -->

@@ -6,7 +6,10 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.MutableCapabilities;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
@@ -36,6 +39,8 @@ public class BrowserStackBaseTest {
 		caps.setCapability("os_version", os_version);
 		caps.setCapability("browser_version", browser_version);
 		caps.setCapability("name", methodName);
+		caps.setCapability("browserstack.debug", "true");
+		
 
 		if (browserName.equals("Chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -46,6 +51,7 @@ public class BrowserStackBaseTest {
 		}
 		try {
 			driver = new RemoteWebDriver(new URL(URL), caps);
+		
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();

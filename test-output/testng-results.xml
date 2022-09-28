@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-28T12:25:58Z" name="BrowserStack Test automtion regression suite" finished-at="2022-09-28T12:26:28Z" duration-ms="29672">
+  <suite started-at="2022-09-28T14:22:15Z" name="BrowserStack Test automtion regression suite" finished-at="2022-09-28T14:22:43Z" duration-ms="28080">
     <groups>
     </groups>
-    <test started-at="2022-09-28T12:25:58Z" name="BrowserStack Test - Chrome" finished-at="2022-09-28T12:26:18Z" duration-ms="19727">
+    <test started-at="2022-09-28T14:22:15Z" name="BrowserStack Test - Chrome" finished-at="2022-09-28T14:22:29Z" duration-ms="14411">
       <class name="com.mytests.SauceTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T17:55:58Z" name="setUp" finished-at="2022-09-28T17:56:05Z" duration-ms="7257" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T19:52:15Z" name="setUp" finished-at="2022-09-28T19:52:20Z" duration-ms="4889" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,15 +38,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkInventoryItemTest()[pri:1, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T17:56:05Z" name="checkInventoryItemTest" finished-at="2022-09-28T17:56:08Z" duration-ms="2814" status="PASS">
+        <test-method signature="checkInventoryItemTest()[pri:1, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T19:52:20Z" name="checkInventoryItemTest" finished-at="2022-09-28T19:52:21Z" duration-ms="1355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkInventoryItemTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T17:56:08Z" name="tearDown" finished-at="2022-09-28T17:56:10Z" duration-ms="1639" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T19:52:21Z" name="tearDown" finished-at="2022-09-28T19:52:23Z" duration-ms="1429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T17:56:10Z" name="setUp" finished-at="2022-09-28T17:56:14Z" duration-ms="4769" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T19:52:23Z" name="setUp" finished-at="2022-09-28T19:52:26Z" duration-ms="3906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,19 +77,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkAddToCartButtonTest()[pri:2, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T17:56:14Z" name="checkAddToCartButtonTest" finished-at="2022-09-28T17:56:16Z" duration-ms="1357" status="PASS">
+        <test-method signature="checkAddToCartButtonTest()[pri:2, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T19:52:26Z" name="checkAddToCartButtonTest" finished-at="2022-09-28T19:52:28Z" duration-ms="1380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAddToCartButtonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T17:56:16Z" name="tearDown" finished-at="2022-09-28T17:56:18Z" duration-ms="1859" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytests.SauceTest@a1cdc6d]" started-at="2022-09-28T19:52:28Z" name="tearDown" finished-at="2022-09-28T19:52:29Z" duration-ms="1428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mytests.SauceTest -->
     </test> <!-- BrowserStack Test - Chrome -->
-    <test started-at="2022-09-28T12:25:58Z" name="BrowserStack Test - FF" finished-at="2022-09-28T12:26:28Z" duration-ms="29672">
+    <test started-at="2022-09-28T14:22:15Z" name="BrowserStack Test - FF" finished-at="2022-09-28T14:22:43Z" duration-ms="28080">
       <class name="com.mytests.SauceTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T17:55:58Z" name="setUp" finished-at="2022-09-28T17:56:09Z" duration-ms="11038" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T19:52:15Z" name="setUp" finished-at="2022-09-28T19:52:26Z" duration-ms="11452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,15 +120,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkInventoryItemTest()[pri:1, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T17:56:09Z" name="checkInventoryItemTest" finished-at="2022-09-28T17:56:11Z" duration-ms="1635" status="PASS">
+        <test-method signature="checkInventoryItemTest()[pri:1, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T19:52:26Z" name="checkInventoryItemTest" finished-at="2022-09-28T19:52:28Z" duration-ms="1776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkInventoryItemTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T17:56:11Z" name="tearDown" finished-at="2022-09-28T17:56:12Z" duration-ms="1263" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T19:52:28Z" name="tearDown" finished-at="2022-09-28T19:52:29Z" duration-ms="1270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T17:56:12Z" name="setUp" finished-at="2022-09-28T17:56:23Z" duration-ms="11409" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T19:52:29Z" name="setUp" finished-at="2022-09-28T19:52:39Z" duration-ms="9552" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,11 +159,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkAddToCartButtonTest()[pri:2, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T17:56:23Z" name="checkAddToCartButtonTest" finished-at="2022-09-28T17:56:26Z" duration-ms="2879" status="PASS">
+        <test-method signature="checkAddToCartButtonTest()[pri:2, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T19:52:39Z" name="checkAddToCartButtonTest" finished-at="2022-09-28T19:52:42Z" duration-ms="2693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAddToCartButtonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T17:56:26Z" name="tearDown" finished-at="2022-09-28T17:56:28Z" duration-ms="1420" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytests.SauceTest@ed7f8b4]" started-at="2022-09-28T19:52:42Z" name="tearDown" finished-at="2022-09-28T19:52:43Z" duration-ms="1314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
